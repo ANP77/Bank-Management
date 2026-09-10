@@ -30,4 +30,4 @@ jobs:
         run: mvn clean compile
 
       - name: Run SpotBugs
-        run: mvn s
+        run: mvn spotbugs:check
